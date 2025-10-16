@@ -58,7 +58,14 @@ These are called "favor" and "oppose"
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+table2 <-xtabs(~cappun + race, data=mydata)
+rowPerc (table2)
+colPerc(table2)
+```
 
+Of the people who favor capital punishment, almost 80% of them are white people. Black people made up 11.72% of the people who favor capital punishment. 8.47% other people. On the opposing side, the majority was 65.38%, which were. white.
+24.11% were black. Lastly, there was 10.51% who were other
 
 
 ## Now with More data
